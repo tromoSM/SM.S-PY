@@ -1,2 +1,2 @@
-# SM.-PY
+# SM.$PY
 SM.$PY --main
