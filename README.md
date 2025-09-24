@@ -15,6 +15,9 @@
 - the script will run until you manually press `.
 - All the data are stored in your device. `.
 
+#### Privacy statement 
+- We do not collect any data from our users. All the information extracted from this tool is stored locally in your device. This tool might make network request to https://ifconfig.me to get your ip. 
+
 ``All of data are stored locally in your device. ``
 
 `` use ` key to quit the program``
