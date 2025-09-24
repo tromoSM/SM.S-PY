@@ -1,0 +1,29 @@
+const $fr = ["---[exiting ahh]---"];
+const $yea = '23' ;
+const $nah = '57' ;
+const $val = 0;
+const $wtf = `X`;
+ const $eggsuka = `X`; 
+ const $demarcusjrthethird = `X`;
+ const $proAhh = `X`;
+ const $ipofda = `X`; 
+ const $doxxthatbih=`X`; 
+ const $slowahhprovider = `X`;
+const $sysinfoproahhcomplex=`X(total=x, available=x, percent=x, used=x, free=x)`;
+const $guy=`X`;
+const $wastedtime=`X`;
+const $ram={'Length': 0, 'MemoryLoad': 0, 'TotalPhys': 0, 'AvailPhys': 0, 'TotalPageFile': 0, 'AvailPageFile': 0, 'TotalVirtual': 0, 'AvailVirtual': 0};
+const $ipV=`X`;
+const $diskshit=`X`
+const $netiomyass=0;
+const $$netiomyass=0;
+const $apps={"X": "X", "X": "X"}
+const $getmesomeapplesfromtheseveneleven=0.0
+$nullrnot=`X`
+$ahh=`X,x`
+$freeloader=`[X, X]`
+const $thedamnfiles=`X`;
+const $noojohnporknoo=String.raw`C:\Users\X\SM.$PY`;
+const $defaultahh=String.raw`C:\Users\X`;
+
+$$version=`V0.6 beta --PRIVATE Release (09.25.2025 as MM.DD.YYYY)`
