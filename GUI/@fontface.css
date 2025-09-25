@@ -1,0 +1,10 @@
+@font-face{
+        src: 
+        local('inter'),
+        url("https://raw.githack.com/tromoSM/Tromo/refs/heads/main/InterVariable.woff2");
+        font-family: interVAR;
+    }
+    @font-face{
+        src: local('SF Pro');
+        font-family: SF Pro;
+    }
