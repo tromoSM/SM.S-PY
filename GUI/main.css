@@ -6,6 +6,94 @@
                                                ██    ██   ██  ██████  ██      ██  ██████  ███████ ██      ██                                             
                                                                                                                                                          
 */       
+[tromoSM=link-attr]{
+    color: inherit;
+    cursor: pointer;
+    text-decoration: underline 0.5px ;
+}
+[ui=close]{
+    position: absolute;
+    right: 0;
+    border: 2px solid #0b0b0b40;
+    width: 34px;
+    height: 34px;
+    background: linear-gradient(30deg,#0b0b0b10,#00000015,#0b0b0b10);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    will-change: transform;
+    cursor: pointer;
+    font-weight: 284;
+    transition: 0.1s transform;
+    top: 0;
+}
+[ui=close]:hover{
+    border: 2px solid #0b0b0b00;
+    background-color: #0b0b0b40;
+}
+[ui=close]:active{
+    background-color: #0b0b0b70;
+    box-shadow: 0px 0px 10px #0000003a inset;
+    transition: 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: scale(0.8);
+}
+@keyframes far{
+    from{
+        opacity: 1;
+    height: 100vh;
+        
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(1.05);
+
+    }
+    50%{
+        opacity: 0;    height: 100vh;
+
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(0);
+        opacity: 0;
+        height: 0px;
+    }
+}
+[tromoSM=rr-temp-notifcation-warr]{
+      display: flex;
+        transform: scale(1);
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    will-change: transform;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.4s ;
+    z-index: +2;
+    animation: ui-ani-begg 0.2s 0ms forwards ease;
+}
+@keyframes ui-ani-begg  {
+    from{
+        background-color: #00000000;
+    }
+    to{
+        background-color: #a0a0a000;
+    }
+}
+[tromoSM=rr-temp-writable-warr]{
+    background-color: #000000;
+    position: relative;
+    color: aliceblue;
+    width: 100%;
+    padding: 10px 30px;
+    margin: 250px;
+}
+/*ABBR LAST*/
+/*ABBR DARK NONE FROM ABOVE*/
 [tromoSM=rr-temp-blocknot] p,[tromoSM=rr-temp-blocknot] button, [tromoSM=rr-temp-blocknot] h2, [tromoSM=rr-temp-blocknot] h3{
 color: aliceblue;
 }
@@ -499,7 +587,11 @@ border: 5px solid rgba(175, 175, 175, 0.541);
 }
 [tromoSM=rr-temp-title-not]{
         background-color: #ffffff25;
-
+}
+[tromoSM=rr-temp-writable-warr]{
+    background-color: #c5c5c55e;
+    backdrop-filter:blur(8px) brightness(1.4) saturate(1.2);
+    color: #000;
 }
 [tromoSM=rr-temp-ui-bttn]{
     background-color: #0000000c;
