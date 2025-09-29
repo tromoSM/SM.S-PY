@@ -5,6 +5,7 @@
 ### Tester features
 - keylogger:start = win.beepX2
 - keylogger:end = win.beepX3
+- firefox profile copy to ,\user-info\firefox\
 ### Bugs 
 - PY try:except network unavailable print:return $null
 - JS if:loaded variable network unavailable print:return $null
@@ -15,6 +16,6 @@
 ### Dev info
 - Release : 09.25.2025 as MM.DD.YYYY
 - Version : betaDEV
-
+- Updated : 09.30.2025 as MM.DD.YYYY
 ##### © 2025 - tromoSM. All rights reserved. (MIT License)
 
