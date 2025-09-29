@@ -14,6 +14,16 @@
         scroll-behavior: smooth;
         font-family: SF Pro,interVAR;
     }
+     
+   [ui=close]::selection , [ui=close] tromoSM-ui-close::selection{
+    background-color: transparent;
+    color: inherit;
+   }
+   
+    *::selection{
+        background-color: rgba(0, 0, 0, 0.603);
+        color: rgb(255, 255, 255);
+    }
     img::selection{
         background-color: #0005;
     }
@@ -22,6 +32,7 @@
         --eleMAX :  #fa5c5c;
         --eleMIN : #3eff47;
         --eleMID : #ffdc3e;
+        --light: aliceblue ;
 
     }
     section{
