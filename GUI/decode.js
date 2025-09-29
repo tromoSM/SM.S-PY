@@ -48,6 +48,13 @@ function $67or41(){
 
 }
 
+document.querySelector(`tr-fill-54154`).innerHTML=$noojohnporknoo;
+document.querySelector(`tr-fill-54154`).setAttribute("onclick",`uiR()`)
+document.querySelector(`tr-fill-54154`).setAttribute("tromoSM","link-attr")
+
+function uiR(){
+  window.open(`file:///${$noojohnporknoo}`,"_blank")
+}
 document.querySelectorAll(`[DevID=take]`).forEach(gurtyo => {
 gurtyo.style.display="none";
 gurtyo.setAttribute("aria-hidden","true");
