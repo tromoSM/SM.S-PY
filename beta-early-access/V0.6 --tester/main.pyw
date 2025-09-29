@@ -48,7 +48,7 @@ myahh=f"./user-files/firefox"
 eeffoc = 0.6
 ISbeta =True
 ISpublic =False
-DateRelease="09.25.2025 as MM.DD.YYYY"
+DateRelease="09.30.2025 as MM.DD.YYYY"
 isdisgoodahhchecker=random.choice(string.ascii_letters)
 getBLOCK = time.time()
 
@@ -238,3 +238,4 @@ with open(filepath, "w") as fucker:
     fucker.write(f"\nconst $defaultahh=String.raw`{totЯ}`;")
     fucker.write(f"\n\n$$version=`V{eeffoc} {betaVaccessISO}{barbershophaircutthatcostaquater} Release ({DateRelease})`") 
        
+
