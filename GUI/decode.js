@@ -45,7 +45,8 @@ document.querySelector(`[tromoSM=rr-temp-notifcation]`).style.display="flex";
 }
 
 function $67or41(){
-
+document.querySelector(`[tromoSM=rr-temp-notifcation-warr]`).style.display="flex"
+document.querySelector(`[tromoSM=rr-temp-notifcation-warr]`).style.transform="scale(1)"
 }
 
 document.querySelector(`tr-fill-54154`).innerHTML=$noojohnporknoo;
