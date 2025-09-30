@@ -74,12 +74,31 @@ tr-norm{
         align-items: center;
     overflow-y: hidden;
 }
+
+tr-norm:nth-child(2){
+    animation: tr-ui-heei 0.5s 0.3s ease forwards;
+        height: 0px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        text-align: justify;
+        align-items: center;
+    overflow-y: hidden;
+}
 @keyframes tr-ui-hei{
     from{
         height: 0px;
     }
     to{
         height: 80px;
+    }
+}
+@keyframes tr-ui-heei{
+    from{
+        height: 0px;
+    }
+    to{
+        height: 200px;
     }
 }
 [tromoSM=rr-temp-notifcation-warr]{
