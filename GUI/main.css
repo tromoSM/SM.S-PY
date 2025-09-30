@@ -14,7 +14,7 @@
     display: inline-block;
     text-decoration: underline 0.5px ;
 }
-[ui=close]{
+[ui=close],[ui=closeR]{
     position: absolute;
     right: 0;
     border: 2px solid #0b0b0b40;
@@ -32,11 +32,11 @@
     transition: 0.1s transform;
     top: 0;
 }
-[ui=close]:hover{
+[ui=close]:hover,[ui=closeR]:hover{
     border: 2px solid #0b0b0b00;
     background-color: #0b0b0b40;
 }
-[ui=close]:active{
+[ui=close]:active,[ui=closeR]:active{
     background-color: #0b0b0b70;
     box-shadow: 0px 0px 10px #0000003a inset;
     transition: 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -63,7 +63,9 @@
         opacity: 0;
         height: 0px;
     }
+
 }
+
 tr-norm{
     animation: tr-ui-hei 0.5s 0.3s ease forwards;
         height: 0px;
@@ -75,7 +77,7 @@ tr-norm{
     overflow-y: hidden;
 }
 
-tr-norm:nth-child(2){
+tr-norms{
     animation: tr-ui-heei 0.5s 0.3s ease forwards;
         height: 0px;
         display: inline-flex;
