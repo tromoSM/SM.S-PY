@@ -9,6 +9,9 @@
 [tromoSM=link-attr]{
     color: inherit;
     cursor: pointer;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
     text-decoration: underline 0.5px ;
 }
 [ui=close]{
@@ -61,8 +64,26 @@
         height: 0px;
     }
 }
+tr-norm{
+    animation: tr-ui-hei 0.5s 0.3s ease forwards;
+        height: 0px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        text-align: justify;
+        align-items: center;
+    overflow-y: hidden;
+}
+@keyframes tr-ui-hei{
+    from{
+        height: 0px;
+    }
+    to{
+        height: 80px;
+    }
+}
 [tromoSM=rr-temp-notifcation-warr]{
-      display: flex;
+      display: none;
         transform: scale(1);
     flex-wrap: wrap;
     height: 100vh;
@@ -91,6 +112,18 @@
     width: 100%;
     padding: 10px 30px;
     margin: 250px;
+    animation: tr-ui-wr 0.5s 0ms forwards 1;
+}
+@keyframes tr-ui-wr {
+    from{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(0.95);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 /*ABBR LAST*/
 /*ABBR DARK NONE FROM ABOVE*/
