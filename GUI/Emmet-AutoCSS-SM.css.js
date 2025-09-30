@@ -21,3 +21,9 @@ document.querySelectorAll(`tromoSM-ui-close`).forEach(fuh=>{
    //just a use like a if else thing with a custom attribute when u got like more bcloise buttons for tos of smth
    //i didnt do the relative ahh path function trhing
 })
+if(document.querySelector(`tr-tos-src`).innerHTML=!""){
+document.querySelector(`tr-tos-src`).innerHTML=$ui_RU 
+}
+else{
+console.error("SM.css-EMMET JS: innerHTML must be null for tos fill")
+}
