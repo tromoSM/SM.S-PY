@@ -11,15 +11,30 @@ document.querySelectorAll(`tr-norm`).forEach(fuh=>{
     fuh.style.fontSize="16px"
     fuh.style.textAlign="justify"
 })
+document.querySelectorAll(`tr-norms`).forEach(fuh=>{
+    fuh.insertAdjacentHTML(`afterend`,"<br>")
+    fuh.style.fontWeight="410"
+    fuh.style.fontSize="15px"
+    fuh.style.textAlign="justify"
+})
+
 function Func_display_temp_privacy(){
- document.querySelector(`[tromoSM=rr-temp-notifcation-warr]`).style.animation="far 1s 0ms forwards ease 1"
+ document.querySelectorAll(`[ui-display=tos]`).forEach(fuh=>{fuh.style.animation="far 1s 0ms forwards ease 1"})
+}
+
+function Func_display_temp_tos(){
+ document.querySelectorAll(`[ui-display=Privacy]`).forEach(fuh=>{fuh.style.animation="far 1s 0ms forwards ease 1"})
 }
 document.querySelectorAll(`tromoSM-ui-close`).forEach(fuh=>{
-   fuh.innerHTML="×"
+  if(fuh.getAttribute("ui-r")=="tos"){
+   fuh.setAttribute("onclick" , `Func_display_temp_tos()`) 
+  }
+  else{
    const $uiR = fuh.getAttribute(`ui-r`);
    fuh.setAttribute("onclick" , `Func_display_temp_privacy()`) 
-   //just a use like a if else thing with a custom attribute when u got like more bcloise buttons for tos of smth
-   //i didnt do the relative ahh path function trhing
+  }
+   fuh.innerHTML="×"
+
 })
 if(document.querySelector(`tr-tos-src`).innerHTML=!""){
 document.querySelector(`tr-tos-src`).innerHTML=$ui_RU 
