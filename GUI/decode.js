@@ -37,7 +37,24 @@ document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=$ahh;
 else{
 document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=`Connect to a network vro<img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji"><img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji">.`;
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML="Dumbass i need a network to get yo location | Error: 67tuffguyalert"
-
+}
+function nerdyahh(){
+  window.open(`https://github.com/tromoSM/SM.S-PY/wiki`,`_blank`)
+}
+function alahuakbaar(){
+  window.open(`https://github.com/tromoSM/SM.S-PY/issues`,"_blank")
+}
+function callthebeans(){
+  window.open(`https://linktr.ee/tromoSM`,`_blank`)
+}
+function helpmyass(){
+  window.open("https://buymeacoffee.com/tromosm","_blank");
+}
+function $upmyass(){
+  window.open("mailto:tromoSM.dumbass@gmail.com","_self")
+}
+function $eeaaee(){
+  window.open("https://smspy.readthedocs.io/en/latest/","_blank")
 }
 document.querySelector(`[tromoSM=rr-temp-notifcation]`).style.display="none";
 function $disnihnikihgooguh(){
@@ -45,8 +62,13 @@ document.querySelector(`[tromoSM=rr-temp-notifcation]`).style.display="flex";
 }
 
 function $67or41(){
-document.querySelector(`[tromoSM=rr-temp-notifcation-warr]`).style.display="flex"
-document.querySelector(`[tromoSM=rr-temp-notifcation-warr]`).style.transform="scale(1)"
+document.querySelector(`[ui-display=Privacy]`).style.display="flex"
+document.querySelector(`[ui-display=Privacy]`).style.transform="scale(1)"
+}
+
+function $famulan(){
+document.querySelector(`[ui-display=tos]`).style.display="flex"
+document.querySelector(`[ui-display=tos]`).style.transform="scale(1)"
 }
 
 document.querySelector(`tr-fill-54154`).innerHTML=$noojohnporknoo;
