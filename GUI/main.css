@@ -6,6 +6,21 @@
                                                ██    ██   ██  ██████  ██      ██  ██████  ███████ ██      ██                                             
                                                                                                                                                          
 */       
+gap{
+    padding: 0px 20px;
+}
+[tromoSM=flex-foot]{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+[tromoSM=flex-foot] p{
+    text-decoration: underline 0.4px;
+}
+[tromoSM=flex-foot] p:hover{
+    color: #000;
+}
 [ui=foot-ar]{
 font-weight: 300;
 margin: 5px 2px;
@@ -17,6 +32,7 @@ padding: 0px 4px;
     width: 100%;
     position: static;
     padding: 4px 5px;
+    margin-top: 20px;
 
 }
 [tromoSM=link-attr]{
