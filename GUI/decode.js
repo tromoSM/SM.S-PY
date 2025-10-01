@@ -38,6 +38,13 @@ else{
 document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=`Connect to a network vro<img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji"><img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji">.`;
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML="Dumbass i need a network to get yo location | Error: 67tuffguyalert"
 }
+function $uiOnenterfooter(){
+  document.querySelector(`[tromoSM=fill-text-S]`).innerHTML="$"
+}
+function $uiOnleavefooter(){
+  document.querySelector(`[tromoSM=fill-text-S]`).innerHTML="S"
+}
+
 function nerdyahh(){
   window.open(`https://github.com/tromoSM/SM.S-PY/wiki`,`_blank`)
 }
