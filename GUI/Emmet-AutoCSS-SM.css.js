@@ -42,3 +42,8 @@ document.querySelector(`tr-tos-src`).innerHTML=$ui_RU
 else{
 console.error("SM.css-EMMET JS: innerHTML must be null for tos fill")
 }
+document.querySelector(`donate`).innerHTML="Donate"
+document.querySelector(`donate`).setAttribute(`onclick`,`window.open("https://buymeacoffee.com/tromosm","_blank");`)
+document.querySelector(`donate`).setAttribute(`tromoSM`,`link-attr`)
+document.querySelector(`donate`).style.padding="0px 4px"
+document.querySelector(`donate`).insertAdjacentText("afterend","to keep us free.")
