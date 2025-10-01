@@ -15,6 +15,8 @@ padding: 0px 4px;
 [tromoSM=foot-main-ahh]{
     background-color: #d1d1d1;
     width: 100%;
+    position: static;
+    padding: 4px 5px;
 
 }
 [tromoSM=link-attr]{
