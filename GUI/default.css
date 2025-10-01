@@ -12,6 +12,8 @@
         padding: 0;
         background-color: white;
         scroll-behavior: smooth;
+        overflow-x: hidden;
+        scrollbar-width: thin;
         font-family: SF Pro,interVAR;
     }
      
