@@ -6,6 +6,17 @@
                                                ██    ██   ██  ██████  ██      ██  ██████  ███████ ██      ██                                             
                                                                                                                                                          
 */       
+[ui=foot-ar]{
+font-weight: 300;
+margin: 5px 2px;
+color: #424242;
+padding: 0px 4px;
+}
+[tromoSM=foot-main-ahh]{
+    background-color: #d1d1d1;
+    width: 100%;
+
+}
 [tromoSM=link-attr]{
     color: inherit;
     cursor: pointer;
@@ -14,6 +25,7 @@
     display: inline-block;
     text-decoration: underline 0.5px ;
 }
+
 [ui=close],[ui=closeR]{
     position: absolute;
     right: 0;
