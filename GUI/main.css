@@ -44,6 +44,18 @@ padding: 0px 4px;
     text-decoration: underline 0.5px ;
 }
 
+[tromoSM=link-attr]:hover{
+    color: #000;
+    transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+[tromoSM=link-attr]:hover span{
+transform: translate(5px,-5px);
+background-color: #000000;
+/*
+vro do this when u have sum time - that frosted google site ahh hover thing
+*/
+}
+
 [ui=close],[ui=closeR]{
     position: absolute;
     right: 0;
@@ -547,8 +559,8 @@ line-height: 1.2;
    }
    [tromoSM=cont-app]{
     gap: 20px;
-     overflow:auto;
-     word-break: break-all;
+    word-break: break-all;
+    overflow: auto;
    }
    [tromoSM=pcont]{
 width: fit-content;
