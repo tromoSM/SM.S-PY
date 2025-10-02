@@ -1,0 +1,134 @@
+[tromoSM=ahh-1]{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+:root{
+    --main-bg : rgb(0, 0, 0) ;
+    --main-color : rgb(255, 255, 255) ;
+}
+  html,body,section{
+        margin: 0;
+        font-smooth: always;
+        padding: 0;
+        background-color: var(--main-bg);
+        scroll-behavior: smooth;
+        scrollbar-width: thin;
+        font-family: SF Pro,interVAR;
+    }
+h1[tromoSM=main]{
+font-size: 80px;
+will-change: font-size;
+color: var(--main-color);
+
+}
+h1[tromoSM=main] span{
+font-size: 90px;
+filter: blur(10px);
+animation: openahh 1s forwards 1 ease;
+}
+@keyframes openahh {
+    from{
+font-size: 90px;
+filter: blur(10px);
+    }
+    to{
+        filter: none;
+        font-size: 80px;
+    }
+}
+section[tromoSM=main]{
+    z-index: 1;
+    position: relative;
+}
+
+[tromoSM=ui-wrap-1],[tromoSM=ui-wrap-2]{
+    position: absolute;
+    bottom: 0;
+    width: 50vw;
+    z-index: -1;
+    pointer-events: none;
+    filter: blur(100px);
+    animation:  open  50s 0ms forwards infinite, ahh 15s 0s forwards infinite ;
+}
+@keyframes ahh {
+from,to{
+    filter: blur(100px) hue-rotate(0deg);
+}
+50%{
+    filter: blur(150px) hue-rotate(-60deg);
+}
+}
+@keyframes open{
+    from,to{
+        transform: skewX(50deg);
+    }
+    50%{
+        transform: skewX(0deg);
+    }
+}
+@keyframes make{
+    from{
+        transform: translateX(-50vw) skewX(-50deg) scale(0.7);
+    }
+    to{
+        transform: translateX(0px) scaleX(0deg) scale(1);
+    }
+}
+@keyframes fuh{
+    from{
+        transform: translateX(50vw) skewX(50deg) scale(0.7);
+    }
+    to{
+        transform: translateX(0px) scaleX(0deg) scale(1);
+    }
+}
+[tromoSM=ui-wrap-1]{
+    left: 0;
+    animation: make 2s 0ms forwards 1 ease;
+}
+[tromoSM=ui-wrap-2]{
+    right: 0;
+    animation: fuh 2s 0ms forwards 1 ease;
+
+}
+[tromoSM=dess]{
+    margin:0px 200px;
+    text-align: center;
+    background-color: #0000005e;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+}
+@keyframes ui-android{
+    from{
+    letter-spacing: 0.244px;
+    }
+    to{
+    letter-spacing: 0.144px;
+
+    }
+}
+[tromoSM=des]{
+    animation: ui-android 0.5s forwards 1 ease;
+    color: var(--main-color);   
+}
+[tromoSM=des] span{
+animation: vro 0.5s forwards 1 ease ;
+        filter: blur(5px);
+        color: transparent;
+
+}
+@keyframes vro{
+    from{
+      color: var(--main-color);
+        filter: blur(5px);
+    }
+    to{
+      color: var(--main-color);
+        filter: none;
+    }
+}
