@@ -1,7 +1,7 @@
 const $fr = ["S","M","---[exiting ahh]---"];
 const $yea = '12' ;
 const $nah = '16' ;
-const $val = 1;
+const $val = 2;
 const $wtf = `Windows-10-10.0.19045-SP0`;
  const $eggsuka = `Windows`; 
  const $demarcusjrthethird = `AMD64`;
