@@ -22,6 +22,10 @@
 --------------------
 - We do not collect any data from our users. All the information extracted from this tool is stored locally in your device. This tool might make network request to https://ifconfig.me to get your ip. 
 
+### GUI
+----------
+visit [GUI.html](https://tromosm.github.io/SM.S-PY/GUI/GUI.html) to test out our GUI.html that's currently under development. Please understand that the information in the GUI.html is displayed as an example and not real information. Some information and features may be removed due to privacy concerns (ex : removed all apps in installed apps except for 2)
+
 ``All of data are stored locally in your device. ``
 
 `` use 'Esc' key to quit the program``
