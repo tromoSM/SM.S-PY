@@ -547,6 +547,8 @@ line-height: 1.2;
    }
    [tromoSM=cont-app]{
     gap: 20px;
+     overflow:auto;
+     word-break: break-all;
    }
    [tromoSM=pcont]{
 width: fit-content;
