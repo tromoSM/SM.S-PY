@@ -1,0 +1,29 @@
+const $fr = ["S","M","---[exiting ahh]---"];
+const $yea = '12' ;
+const $nah = '16' ;
+const $val = 1;
+const $wtf = `Windows-10-10.0.19045-SP0`;
+ const $eggsuka = `Windows`; 
+ const $demarcusjrthethird = `AMD64`;
+ const $proAhh = `Intel64 Family 6 Model 58 Stepping 9, GenuineIntel`;
+ const $ipofda = `100.100.1.00`; 
+ const $doxxthatbih=`100.100.100.10`; 
+ const $slowahhprovider = `DESKTOP-FUH`;
+const $sysinfoproahhcomplex=`svmem(total=8498331648, available=1349144576, percent=84.1, used=7149187072, free=1349144576)`;
+const $guy=`TromoSM`;
+const $wastedtime=`100308890`;
+const $ram={'Length': 56, 'MemoryLoad': 84, 'TotalPhys': 8498331648, 'AvailPhys': 1349132288, 'TotalPageFile': 16551395328, 'AvailPageFile': 5694119936, 'TotalVirtual': 140737488224256, 'AvailVirtual': 140732945965056};
+const $ipV=`echoeUSSR`;
+const $diskshit=`41.9`
+const $netiomyass=5057026;
+const $$netiomyass=58110817;
+const $apps={"Firefox": "308046B0AF4A39CB", "Firefox Private Browsing": "308046B0AF4A39CB;PrivateBrowsingAUMID"};
+ const $getmesomeapplesfromtheseveneleven=4.931487321853638
+ $nullrnot=`i`
+$ahh=`Braunau am Inn, Austria`
+$freeloader=`[1.0101, 10.1000]`
+const $thedamnfiles=`True`;
+const $noojohnporknoo=String.raw`C:\Users\TromoSM\SM.$PY`;
+const $defaultahh=String.raw`C:\Users\TromoSM`;
+
+$$version=`V0.7 beta --PRIVATE Release (09.25.2025 as MM.DD.YYYY)`
