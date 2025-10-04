@@ -2,6 +2,8 @@
 ### Summary
 - This version offers special tools that are still under development.
 - Use this version at your risk; we are not recommending you this version.
+- No GUI thats currently available from us supports any tester features added in this release (4:13), nor any debugging features for bugs that is only in this release
+- Features from this release will be added to the next stable release depending on the success rate.
 ### Tester features
 - keylogger:start = win.beepX2
 - keylogger:end = win.beepX3
@@ -35,3 +37,4 @@
 - Version : EXCLUSIVE betaDEV
 
 ##### © 2025 - tromoSM. All rights reserved. (MIT License)
+##### All the documents in this release is licensed under the "MIT License". A copy of the license can be obtained [here](https://github.com/tromoSM/SM.S-PY/blob/main/LICENSE).
