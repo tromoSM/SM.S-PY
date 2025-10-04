@@ -2,11 +2,11 @@
 
 ##### by using any of the documents you agree to this terms of service.
 -------------------------------------------------------------------------
-##### these terms excist to prevent misuse of this tool.
+##### these terms exist to prevent misuse of this tool.
 Do not use this tool to spy* on anyone if you don't have their permission.
 Do not use this tool as spyware, any type of malware nor for any illegal activity.
 If you don't have the permission from the owner of the device, do not attempt to steal others information with this tool.
-Unathorized use of this tool may violate local laws in your area.
+Unauthorized use of this tool may violate local laws in your area.
 we are not liable for any damages, claims, or consequences arising from misuse. You are solely responsible for how you use this tool.
 This tool is provided "AS IS," without warranty of any kind.  
 
