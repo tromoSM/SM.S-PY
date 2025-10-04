@@ -2,7 +2,7 @@
 
 #### All the required files for this version can be downloaded from [here](https://github.com/tromoSM/SM.S-PY/releases/tag/V0.7).
 
-#### Available files
+#### Available files for this release
 - @fontface.css
 - begginLet-Sniff.js
 - decode.ja
