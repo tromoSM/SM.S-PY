@@ -1,7 +1,7 @@
 ## Version 0.7
-
+#### We are not recommending this release for normal use. this is a beta release and this is still under testing for bugs. No issues from V0.6 is fixed in this release and they will fixed on the next stable release.
+***
 #### All the required files for this version can be downloaded from [here](https://github.com/tromoSM/SM.S-PY/releases/tag/V0.7).
-
 #### Available files for this release
 - @fontface.css
 - begginLet-Sniff.js
