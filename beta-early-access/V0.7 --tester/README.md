@@ -12,3 +12,7 @@
 - Emmet-AutoCSS-SM.css.js
 - textahh(example).js
 - GUI.html
+
+***
+#### © 2025 - tromoSM. All rights reserved.
+#### All documents from this release is licensed under the "MIT license". A copy of the license can be obtained from [here](https://github.com/tromoSM/SM.S-PY/blob/main/LICENSE).
