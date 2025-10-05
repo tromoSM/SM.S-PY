@@ -21,10 +21,16 @@
 - Please do not move any of the files from their position.
 - the script will run until you manually press 'Esc'.
 - All the data are stored in your device.
-
+- See if you meet the [requirements](#Requirements) to use this tool.
+  
 ### Privacy statement 
 --------------------
 - We do not collect any data from our users. All the information extracted from this tool is stored locally in your device. This tool might make network request to https://ifconfig.me to get your IP Address. 
+
+### Requirements
+--------------------
+- Windows 7 or later
+- Python 3 or later
 
 ### GUI
 ----------
