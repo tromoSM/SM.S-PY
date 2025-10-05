@@ -14,7 +14,7 @@
         scroll-behavior: smooth;
         overflow-x: hidden;
         scrollbar-width: thin;
-        font-family: SF Pro,interVAR;
+        font-family: SF Pro,interVAR,'Segoe Ui',sans-serif;
     }
      
    [ui=close]::selection , [ui=close] tromoSM-ui-close::selection{
@@ -41,7 +41,7 @@
         padding: 10px 0px;
     }
     button{
-        font-family: SF Pro,interVAR;
+        font-family: SF Pro,interVAR,sans-serif;
     }
 
                                                                  
