@@ -1,4 +1,4 @@
-![just a logo vro.](https://github.com/tromoSM/SM.-PY/blob/main/web.rip.logo.png?raw=true)
+![just a logo vro.](https://github.com/tromoSM/SM.S-PY/blob/main/Assets/branding/web.rip.logo.png?raw=true)
 # SM.$PY
 #### SM.$PY provides information about the device and the system while it stores data such as 'pressed keys' in a javascript source file(JS).
 
