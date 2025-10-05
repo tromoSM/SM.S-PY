@@ -10,7 +10,11 @@
 - stores all the files including subfolders in .\user-files\
 - and the GUI.html will take the info inside info.js and decode all information.
 - All the information will be displayed inside GUI.html as readable.
+
+  
 ![Graph of how SM.S$PY works and the its data structure](https://github.com/tromoSM/SM.S-PY/blob/main/graph.webp?raw=true)
+
+
 ### Read before using
 --------------------
 - By using this tool you agree to our [terms of service](https://github.com/tromoSM/SM.S-PY/blob/main/TOS.md)
