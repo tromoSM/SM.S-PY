@@ -46,3 +46,7 @@ this version isnt recommended for normal use. this version will have all these [
 
 ##### V0.8 beta
 ##### © 2025 - tromoSM. All rights reserved. (MIT License)
+
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="red">
+  <circle cx="12" cy="12" r="10" />
+</svg>
