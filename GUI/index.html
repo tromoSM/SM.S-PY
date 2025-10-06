@@ -7,7 +7,7 @@
   <body>
     <script> window.open("https://tromosm.github.io/SM.S-PY/GUI/GUI.html","_self") </script>
     <noscript>You were being redirected to the correct site, To continue please enable javascript on your browser or visit the site manually; <a href="https://tromosm.github.io/SM.S-PY/GUI/GUI.html">click here.</a> Some older browsers might cause this issue.</noscript>
-    <p style="animation:use 0.2s 5s ease 1 forwards; color:transparent !important;">Something went wrong. <br>Please click <a href="https://tromosm.github.io/SM.S-PY/GUI/GUI.html">here</a> to continue</p>
+    <p style="animation:use 0.2s 5s ease 1 forwards; color:transparent !important; opacity:0;">Something went wrong. <br>Please click <a href="https://tromosm.github.io/SM.S-PY/GUI/GUI.html">here</a> to continue</p>
   </body>
 </html>
 <style>
@@ -21,8 +21,10 @@
     font-damily:SF Pro,inter,Segoe UI,Arial,sans-serif;
   }
   @keyframes use{
-    from{color:transparent !important;}
+    from{color:transparent !important;
+        opacity:0;}
     to{
+      opacity:1;
       color:black !important;
     }
   }
