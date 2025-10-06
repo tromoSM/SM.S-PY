@@ -354,6 +354,7 @@ if (manscr.innerHTML==""){
                                   }
                                   else{
                                      if(manscr.innerHTML=="windowsKEY" ){
+                                       if($eggsuka.toUpperCase()=="WINDOWS"){
               manscr.setAttribute('win32','true');
               manscr.setAttribute('title',"windows key")
               manscr.innerHTML=`<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg
@@ -385,7 +386,12 @@ if (manscr.innerHTML==""){
                             d="M1190 530 l0 -530 530 0 530 0 0 530 0 530 -530 0 -530 0 0 -530z"
                            id="path4" />
                           </g>
-                        </svg>`;
+                        </svg>`;}
+                             else{
+                              manscr.innerHTML="⌘";
+                              manscr.setAttribute('title',"super key (⌘)")
+                              
+                             }
                                   }
                                   else{
                                     if(manscr.innerHTML=="ARC09pmo"){
@@ -398,7 +404,7 @@ if (manscr.innerHTML==""){
                                      /*
 
                                      I HAD TO DEBUG 4FILES FOR 5 HOURS BECAUSE OF THIS 3 FUCKING LINES
-                                     DUMBASS  
+                                     DUMBASS 
                                      manscr.innerHTML=manscr.innerHTML.slice(4)
                                         manscr.setAttribute("spec","true");
                                         manscr.setAttribute("ui","TT-UPPER");
