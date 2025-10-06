@@ -245,7 +245,16 @@ document.querySelector(`[tromoSM=fill-text-func-ip]`).innerHTML=$ipofda;
 document.querySelector(`[tromoSM=fill-text-func-ipEXTRA]`).innerHTML=$doxxthatbih;
 document.querySelector(`[tromoSM=fill-text-func-uptime]`).innerHTML=`${$upFuh} hours`;
 document.querySelector(`[tromoSM=fill-text-func-si]`).innerHTML=$wtf;
+if($eggsuka.toUpperCase()=="WINDOWS"){
 document.querySelector('[tromoSM=fill-text-func]').innerHTML=$eggsuka;
+}
+else{
+ if($eggsuka.toUpperCase()=="ANDROID"){
+   document.querySelector('[tromoSM=fill-text-func]').innerHTML=`how tf is this still working in <strong>${$eggsuka}</strong>.`;
+ }
+ else{
+  document.querySelector('[tromoSM=fill-text-func]').innerHTML=`how the hell is this working. its <strong>${$eggsuka}</strong> btw.`;
+ }}
 $helpmeinstead = $eggsuka.toUpperCase();
 let oscoR
 const $icoIRC =  document.querySelector('[tromoSM=ico-ui-get-func-let]');
