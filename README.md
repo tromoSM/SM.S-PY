@@ -25,7 +25,7 @@
   
 ### Privacy statement 
 --------------------
-- We do not collect any data from our users. All the information extracted from this tool is stored locally in your device. This tool might make network request to https://ifconfig.me to get your IP Address. 
+- All the data is stored in your device locally. We do not collect any data from our users. None of your data is anywhere other than your device. This tool might make network requests to 'https://ifconfig.me' to get your IP address. 
 
 ### Requirements
 --------------------
