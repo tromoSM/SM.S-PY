@@ -143,13 +143,26 @@ $41="petergriffingahh";
 }
 
 
+function gotit(){
+  window.open(`file:///${$noojohnporknoo}/user-files/`,"_blank")
+}
+function africandracula(){
+  window.open(`file:///${$defaultahh}/Pictures/`,"_blank")
+}
 let $justleaveblud = document.querySelector(`[tromoSM=fill-all-fS-Move]`)
 if($thedamnfiles==`True`){
-$justleaveblud.innerHTML=`files inside <span tromoSM="SPR">${$defaultahh}\\Pictures</span> succesfully copied to <span tromoSM="SPR">${$noojohnporknoo}\\user-files\\</span>`     
+$justleaveblud.innerHTML=`files inside <span tromoSM="SPR" tromoSM-fill="p">${$defaultahh}\\Pictures</span> succesfully copied to <span tromoSM="SPR"  tromoSM-fill="us-f">${$noojohnporknoo}\\user-files\\</span>`     
 }
 else{
- $justleaveblud.innerHTML=`files inside <span tromoSM="SPR">${$defaultahh}\\Pictures</span> failed to copy to <span tromoSM="SPR">${$noojohnporknoo}\\user-files\\</span>.<br> This might happen due to already having files in <span tromoSM="SPR">${$noojohnporknoo}\\user-files\\</span>`     
+ $justleaveblud.innerHTML=`files inside <span tromoSM="SPR" tromoSM-fill="p">${$defaultahh}\\Pictures</span> failed to copy to <span tromoSM="SPR"  tromoSM-fill="us-f">${$noojohnporknoo}\\user-files\\</span>.<br> This might happen due to already having files in <span tromoSM="SPR">${$noojohnporknoo}\\user-files\\</span>`     
 }
+document.querySelectorAll(`[tromoSM-fill=us-f]`).forEach(yo=>{
+yo.setAttribute("onclick",`gotit()`)
+})
+document.querySelectorAll(`[tromoSM-fill=p]`).forEach(yo=>{
+yo.setAttribute("onclick",`africandracula()`)
+})
+
 $getmesomeapplesfromtheseveneleven.toFixed(0)
 const $cornball = Object.keys($apps);
 for (const floorpasta of $cornball) {
