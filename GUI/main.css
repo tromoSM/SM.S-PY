@@ -27,11 +27,12 @@ margin: 5px 2px;
 color: #424242;
 padding: 0px 4px;
 }
+
 [tromoSM=foot-main-ahh]{
     background-color: #d1d1d1;
     width: 100%;
     position: static;
-    padding: 4px 5px;
+    padding: 4px 5px 10px 5px;
     margin-top: 20px;
 
 }
@@ -388,9 +389,15 @@ line-height: 1.2;
         padding: 2px 7px;
         margin: 3px 0px;
         line-height: 30px;
+        font-size: 16px;
         word-break: break-all;
         background-color: #eeeeee;
         border-radius: 15px;
+        cursor: pointer;
+        transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    [tromoSM=SPR]:hover{
+        box-shadow: 2px 0px 10px #00000094;
     }
     [tromoSM=move-ur]{
         display: flex;
