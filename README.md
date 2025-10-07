@@ -30,7 +30,7 @@
 ### Requirements
 --------------------
 - Windows 7 or later
-- Python 3 or later
+- Python 3.13 (might work on 3.10 or older)
 
 ### GUI
 ----------
