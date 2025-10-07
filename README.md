@@ -12,7 +12,7 @@
 - All the information will be displayed inside GUI.html as readable.
 
   
-![Graph of how SM.S$PY works and the its data structure](https://github.com/tromoSM/SM.S-PY/blob/main/graph.webp?raw=true)
+![Graph of how SM.S$PY works and the its data structure](https://raw.githubusercontent.com/tromoSM/SM.S-PY/refs/heads/main/Assets/branding/graph.webp)
 
 
 ### Read before using
