@@ -1,8 +1,8 @@
 ![just a logo vro.](https://github.com/tromoSM/SM.S-PY/blob/main/Assets/branding/web.rip.logo.png?raw=true)
 # SM.$PY
-#### SM.$PY provides information about the device and the system while it stores data such as 'pressed keys' in a javascript source file(JS).
+- SM.$PY provides information about the device and the system while it stores data such as 'pressed keys' in a javascript source file(JS).
 
-### Here's what exactly this tool does while running in the background,
+- Here's what exactly this tool does while running in the background,
 --------------------
 - get device and system information and stores in textahh.js ( Username, Device name , Operating system with build number, System version , Architecture , Processor , Private IP Address , Public IP Address , IP Version , Location, Geographic coordinates, Network requests, Memory information, Disk information , System uptime )
 - record pressed keys and stores in info.js
