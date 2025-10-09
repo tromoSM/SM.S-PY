@@ -43,6 +43,7 @@ this version isnt recommended for normal use. this version will have all these [
 ``All of data are stored locally in your device. ``
 
 `` use 'Esc' key to quit the program``
+***
 
 ##### V0.8 beta
 ##### © 2025 - tromoSM. All rights reserved. (MIT License)
