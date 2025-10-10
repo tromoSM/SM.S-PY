@@ -3,7 +3,7 @@
 ##### by using any of the documents you agree to this terms of service.
 -------------------------------------------------------------------------
 ##### these terms exist to prevent misuse of this tool.
-Do not use this tool to spy* on anyone if you don't have their permission.
+Do not use this tool on anyone's device unless it's yours or you have the owners permission.
 Do not use this tool as spyware, any type of malware nor for any illegal activity.
 If you don't have the permission from the owner of the device, do not attempt to steal others information with this tool.
 Unauthorized use of this tool may violate local laws in your area.
