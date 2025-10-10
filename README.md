@@ -48,4 +48,4 @@ this version isnt recommended for normal use. this version will have all these [
 
 ##### V0.8 beta
 ##### © 2025 - tromoSM. All rights reserved. (MIT License)
-[![GitHub](https://img.shields.io/badge/GitHub-232323?logo=github&logoColor=aliceblue)](https://github.com/tromoSM/) [![insta](https://img.shields.io/badge/Instagram-232323?logo=instagram&logoColor=aliceblue)](https://instagram.com/tromoSM/)  [![Contact Us](https://img.shields.io/badge/Contact_Us-232323?logo=linktree&logoColor=00f73)](https://Linktr.ee/TromoSM/)
+[![GitHub](https://img.shields.io/badge/GitHub-232323?logo=github&logoColor=aliceblue)](https://github.com/tromoSM/) [![insta](https://img.shields.io/badge/Instagram-232323?logo=instagram&logoColor=aliceblue)](https://instagram.com/tromoSM/)  [![Contact Us](https://img.shields.io/badge/Contact_Us-232323?logo=linktree&logoColor=00f73)](https://Linktr.ee/TromoSM/) [![Readthedocs](https://img.shields.io/badge/Readthedocs-232323?logo=readthedocs&logoColor=00f73)](https://smspy.readthedocs.io/en/latest/)
