@@ -1,3 +1,5 @@
+import sphinx_rtd_theme
+
 project = 'SM.S-PY'        
 author = 'tromoSM'   
 master_doc = 'index'
