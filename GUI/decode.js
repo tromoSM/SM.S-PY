@@ -38,6 +38,53 @@ else{
 document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=`Connect to a network vro<img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji"><img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji">.`;
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML="Dumbass i need a network to get yo location | Error: 67tuffguyalert"
 }
+
+let yogurt=0
+
+$recent.forEach(be => {
+  if (yogurt<10){
+  const ass = document.createElement("p")
+  document.querySelector(`[tromoSM=gurtatemydoughnut]`).appendChild(ass);
+  ass.setAttribute("tromoSM","filespe")
+  ass.innerHTML=be
+  ass.insertAdjacentHTML("afterbegin",`<img src="get_ui/ui-src-ic-docfilefill.svg" ui="true" tromoSM="ui-frft">`)
+  ass.setAttribute("onclick",`window.open("file:///${$defaultahhs}/AppData/Roaming/Microsoft/Windows/Recent/${be}")`);
+  yogurt++;
+}
+  else{
+     const ass = document.createElement("p")
+  document.querySelector(`[tromoSM=gurtatemydoughnut]`).appendChild(ass);
+  ass.setAttribute("tromoSM","filespe")
+  ass.innerHTML=be
+  ass.insertAdjacentHTML("afterbegin",`<img src="get_ui/ui-src-ic-docfilefill.svg" ui="true" tromoSM="ui-frft">`)
+  ass.setAttribute("onclick",`window.open("file:///${$defaultahhs}/AppData/Roaming/Microsoft/Windows/Recent/${be}")`);
+  ass.style.display="none"
+  ass.setAttribute("fuh","no")
+  yogurt++;
+  }
+})
+
+  const yos = document.createElement("button")
+  document.querySelector(`[tromoSM=gurtatemydoughnut]`).appendChild(yos);
+  yos.innerHTML="•••"
+  yos.setAttribute("tromoSM","ui-buttn-fuh")
+  yos.setAttribute("title",`${$recent.length -10} more`)
+  let ahh = 0
+  yos.addEventListener("click",function(){
+    if(ahh==0){
+   document.querySelectorAll("[fuh=no]").forEach(gurt => {
+     gurt.style.display="inline-flex"
+    ahh=67})
+    }
+    else{
+   document.querySelectorAll("[fuh=no]").forEach(gurt => {
+     gurt.style.display="none"
+  ahh = 0
+   });
+    }
+
+  })
+
 function $uiOnenterfooter(){
   document.querySelector(`[tromoSM=fill-text-S]`).innerHTML="$"
 }
@@ -231,6 +278,10 @@ const $hedURani ="tr-al 1s 100ms forwards 1 normal cubic-bezier(0.23, 1, 0.320, 
 function $opnheaderkey() {
      document.getElementById("keyTM").style.animation=$hedURani
      window.location.href="#Keylogger"
+}
+function $opnheaderrec() {
+    document.getElementById("filesTM").style.animation=$hedURani
+     window.location.href="#files"
 }  
 function $opnheaderscrn() {
      document.getElementById("scrnTM").style.animation=$hedURani
