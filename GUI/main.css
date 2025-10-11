@@ -5,9 +5,81 @@
                                                ██    ██   ██ ██    ██ ██  ██  ██ ██    ██      ██ ██  ██  ██                                             
                                                ██    ██   ██  ██████  ██      ██  ██████  ███████ ██      ██                                             
                                                                                                                                                          
-*/       
+*/ 
 gap{
     padding: 0px 20px;
+}
+[tromoSM=ui-buttn-fuh]{
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    width: 26px;
+    vertical-align: middle;
+    height: 26px;
+    font-size: 10px;
+    transform: translateY(-2px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #ececec;
+    padding: 0;
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+    margin: 0;
+}
+[lil=yea]{
+    font-size: 12px;
+    font-weight: 300;
+}
+[tromoSM=ui-buttn-fuh]:hover{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #00000067 ;
+    letter-spacing:-1px;   
+}
+[tromoSM=ui-buttn-fuh]:active{
+    box-shadow: 0px 0px 1px #00000067 ;
+    transform: scale(0.8);
+
+}
+[tromoSM=filespe]{
+    background-color: #f3f3f3;
+    display: inline-flex;
+    word-break: break-all;
+    border-radius: 8px;
+    padding: 2px 5px;
+    margin: 2px 5px;
+    align-items: center;
+    width: fit-content;
+    cursor: pointer;
+    border: 1px solid #d1d1d100;
+    transition: 0.3s;
+}
+[tromoSM=filespe]:hover{
+    background-color: #ffffff;
+    border: 1px solid #929292;
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+[tromoSM=filespe]:active{
+    transform: scale(0.8);
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+[tromoSM=filespe] img{
+    filter: brightness(0.7);
+    transition: 0.2s;
+    will-change: transform,scale;
+}
+[tromoSM=filespe]:hover img{
+    filter: brightness(0);
+    transform: scale(1.1);
+}
+[tromoSM=gurtatemydoughnut]{
+    margin: 2px 40px;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 10px #00000090;
+    background-color: #d4d4d4;
+    border-radius: 17px;
 }
 [tromoSM=flex-foot]{
     display: flex;
