@@ -1,9 +1,9 @@
-const $fr = ["S","M","---[exiting ahh]---"];
+const $fr = ["S","M","windowsKEY"];
 const $yea = '12' ;
 const $nah = '16' ;
-const $val = 2;
+const $val = 1;
 const $wtf = `Windows-10-10.0.19045-SP0`;
- const $eggsuka = `Windows`; 
+ const $eggsuka = `android`; 
  const $demarcusjrthethird = `AMD64`;
  const $proAhh = `Intel64 Family 6 Model 58 Stepping 9, GenuineIntel`;
  const $ipofda = `100.100.1.00`; 
@@ -25,5 +25,8 @@ $freeloader=`[1.0101, 10.1000]`
 const $thedamnfiles=`True`;
 const $noojohnporknoo=String.raw`C:\Users\TromoSM\SM.$PY`;
 const $defaultahh=String.raw`C:\Users\TromoSM`;
-
-$$version=`V0.7 beta --PRIVATE Release (09.25.2025 as MM.DD.YYYY)`
+const $defaultahhs=String.raw`C:\Users\TromoSM`.replace(/\\/g, '/');
+const $recent=[
+    'file 1','file 2','file 3','file 4','file 5','file 6','file 7','file 8','file 9','file 10','file 11','file 12','file 13','file 14','file 15','file 16','file 17','file 18','file 19','file 20','file 21','file 22','file 23','file 24','file 25','file 26', 'file 27', 'file 28', 'file 29','file 30','file 31','file 32','file 33','file 34','file 35','file 36','file 37','file 38','file 39','file 40','file 41',
+]
+$$version=`V0.7 beta --PRIVATE Release (10.01.2025 as MM.DD.YYYY)`
