@@ -1,4 +1,4 @@
-const $fr = ["S","M","windowsKEY"];
+const $fr = ["S","M","---[exiting ahh]---"];
 const $yea = '12' ;
 const $nah = '16' ;
 const $val = 1;
