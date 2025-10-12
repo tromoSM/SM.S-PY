@@ -9,6 +9,47 @@
 gap{
     padding: 0px 20px;
 }
+[tromoSM=contKeYT],[tromoSM=scrnAS],[tromoSM=inf],[tromoSM=move-ur],[tromoSM=gurtatemydoughnut],[tromoSM=NRcont]{
+        transform: translateX(-15px) ;
+        opacity: 0;
+        filter: blur(4px);
+    animation:ahh 0.2s 0ms forwards 1;
+}
+[tromoSM=mainR]{
+        opacity: 0;
+    animation:ahh 0.2s 0ms forwards 1;
+}
+[tromoSM=contKeYT]{
+animation-delay: 100ms;
+}
+[tromoSM=scrnAS]{
+    animation-delay: 200ms;
+
+}
+[tromoSM=inf]{
+    animation-delay: 300ms;
+}
+[tromoSM=move-ur]{
+   animation-delay: 0.4s;
+}
+[tromoSM=gurtatemydoughnut]{
+       animation-delay: 0.5s;
+}
+[tromoSM=NRcont]{
+     animation-delay: 0.6s;
+}
+@keyframes ahh{
+    from{
+        transform: translateX(-15px) ;
+        filter: blur(4px);
+        opacity: 0;
+    }
+    to{
+        filter: blur(0px);
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
 [tromoSM=ui-buttn-fuh]{
     border-radius: 50px;
     outline: none;
