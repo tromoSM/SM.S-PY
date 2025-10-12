@@ -29,7 +29,7 @@
 
 ### Requirements
 --------------------
-- Windows 7 or later
+- Windows 10 or later
 - Python 3.13 (might work on 3.10 or older)
 - For dependencies see [requirements.txt](https://github.com/tromoSM/SM.S-PY/blob/main/requirements.txt)
 
