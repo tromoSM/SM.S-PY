@@ -6,6 +6,45 @@
                                                ██    ██   ██  ██████  ██      ██  ██████  ███████ ██      ██                                             
                                                                                                                                                          
 */ 
+[tromoSM=open-ux-fuh]{
+    font-size: 13px;
+    right: 0;
+    top: 0;
+    font-weight: 500;
+    transition: 0.2s cubic-bezier(0.19, 1, 0.22, 1);
+    align-self: start;
+}
+[tromoSM=fill-text-func-gurt]{
+    cursor: pointer;
+    display: inline-flex;
+}
+[tromoSM=fill-text-func-gurt]:hover span{
+    transform: translate(5px,-5px);
+}
+[tromoSM=LCID]{
+    display: inline-flex;
+    background-color: #d1d1d1;
+    font-size: 12px;
+    border-radius: 50px;
+    font-weight: 500;
+    margin: 0px 5px;
+    padding: 1px 3px;
+    transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    vertical-align: middle;
+    cursor: pointer;
+    will-change: transform,padding;
+}
+[tromoSM=LCID]:hover{
+    transition: 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding: 1px 7px;
+}
+[tromoSM=LCID]:active{
+  transform: scale(0.7);
+}
+[tromoSM=fill-text-func-lang]{
+    display: flex;
+    align-items: center;
+}
 gap{
     padding: 0px 20px;
 }
