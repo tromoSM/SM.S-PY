@@ -33,6 +33,10 @@
 - Python 3.13 (might work on 3.10 or older)
 - For dependencies see [requirements.txt](https://github.com/tromoSM/SM.S-PY/blob/main/requirements.txt)
 
+### Older versions
+---------------------
+- all required files(including GUI) for every version can be found in [here](https://github.com/tromoSM/tromoSM/tree/main/Projects/SM.%24PY/GUI)
+
 ### GUI
 ----------
 visit [GUI.html](https://tromosm.github.io/SM.S-PY/GUI/GUI.html) to test out our GUI.html that's currently under development. Please understand that the information in the GUI.html is displayed as an example and not real information. Some information and features may be removed due to privacy concerns (ex : removed all apps in installed apps except for 2)
