@@ -36,7 +36,7 @@ document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML="Dumbass i nee
 
 document.querySelector(`[tromoSM=fill-text-func-ssid]`).innerHTML=$typeshi[0]
 document.querySelector(`[tromoSM=fill-text-func-stre]`).innerHTML=$typeshi[1]
-document.querySelector(`[tromoSM=fill-text-func-tras]`).innerHTML=$typeshi[2]
+document.querySelector(`[tromoSM=fill-text-func-tras]`).innerHTML=`${$typeshi[2]}mbps`
 document.querySelector(`[tromoSM=fill-text-func-fuckoff]`).innerHTML=$typeshi[3]
 document.querySelector(`[tromoSM=fill-text-func-guid]`).innerHTML=$typeshi[4]
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).setAttribute("onclick",`window.open('https://www.google.com/maps?q=${$freeloader}')`)
