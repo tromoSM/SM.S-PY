@@ -24,14 +24,9 @@ else{
 $67.style.display="none"
 $mcfonaldsworkerahhcomment=`False error : noErr | identified as 67uxPY`
 }
-const $putthedamnfriesinthebagvro=document.createElement("div")
-$67.appendChild($putthedamnfriesinthebagvro)
-$putthedamnfriesinthebagvro.setAttribute("tromoSM","err67T")
-$putthedamnfriesinthebagvro.innerHTML=$mcfonaldsworkerahhcomment
-
 
 if($freeloader != "geniusAHH-67UXPY"){
-document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML=$freeloader.slice(1,-1);
+document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML=`${$freeloader[0]},${$freeloader[1]}<span tromoSM="open-ux-fuh">🡥</span>`;
 document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=$ahh;
 }
 else{
@@ -39,6 +34,70 @@ document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=`Connect to a n
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML="Dumbass i need a network to get yo location | Error: 67tuffguyalert"
 }
 
+document.querySelector(`[tromoSM=fill-text-func-ssid]`).innerHTML=$typeshi[0]
+document.querySelector(`[tromoSM=fill-text-func-stre]`).innerHTML=$typeshi[1]
+document.querySelector(`[tromoSM=fill-text-func-tras]`).innerHTML=$typeshi[2]
+document.querySelector(`[tromoSM=fill-text-func-fuckoff]`).innerHTML=$typeshi[3]
+document.querySelector(`[tromoSM=fill-text-func-guid]`).innerHTML=$typeshi[4]
+document.querySelector(`[tromoSM=fill-text-func-gurt]`).setAttribute("onclick",`window.open('https://www.google.com/maps?q=${$freeloader}')`)
+document.querySelector(`[tromoSM=fill-text-func-lang]`).innerHTML=$calvinahhsmall.slice(2,7).replace("_","-").toUpperCase()
+if(document.querySelector(`[tromoSM=fill-text-func-lang]`).innerHTML=="EN-US"){
+ document.querySelector(`[tromoSM=fill-text-func-lang]`).setAttribute("title","🦅🦅🦅")
+}
+else{
+ document.querySelector(`[tromoSM=fill-text-func-lang]`).setAttribute("title",`${$calvinahhsmall.slice(2,4).replace("_","-").toUpperCase()}(${$calvinahhsmall.slice(5,7).replace("_","-").toUpperCase()})`)
+}
+fuckme=document.createElement("span")
+document.querySelector(`[tromoSM=fill-text-func-lang]`).appendChild(fuckme)
+fuckme.setAttribute("tromoSM","LCID")
+fuckme.setAttribute("title","LCID (Language Code Identifier)")
+fuckme.innerHTML=$fuhnawnih;
+fuckme.setAttribute("onclick",`window.open("https://learn.microsoft.com/en-us/previous-versions/office/sharepoint-csom/jj167546(v=office.15)#remarks")`)
+const $putthedamnfriesinthebagvro=document.createElement("div")
+$67.appendChild($putthedamnfriesinthebagvro)
+$putthedamnfriesinthebagvro.setAttribute("tromoSM","err67T")
+$putthedamnfriesinthebagvro.innerHTML=$mcfonaldsworkerahhcomment
+window.addEventListener("DOMContentLoaded",function(){
+
+document.querySelectorAll(`[mrdc=true]`).forEach(dumbahh=> {
+  dumbahh.setAttribute("sense-in","yuh")})
+document.querySelectorAll(`[tromoSM=contKeYT]`).forEach(dumbahh=> {
+  dumbahh.setAttribute("sense-in","yuh")
+})
+document.querySelectorAll(`[tromoSM=trim]`).forEach(dumbahh=> {
+  dumbahh.setAttribute("sense-in","yuh")
+})
+document.querySelectorAll(`[tromoSM="SPR"]`).forEach(dumbahh=> {
+  dumbahh.setAttribute("sense-in","yuh")
+})
+document.querySelectorAll(`[tromoSM="filespe"]`).forEach(dumbahh=> {
+  dumbahh.setAttribute("sense-in","yuh")
+})
+document.querySelectorAll(`[tromoSM="musvebeenthewindahh"]`).forEach(dumbahh=> {
+  dumbahh.setAttribute("sense-in","yuh")
+})
+})
+let anderdingus;
+anderdingus = 5
+function nih(){
+  document.querySelectorAll('[sense-in=yuh]').forEach(yo=>{
+  if( yo.style.opacity==1){
+    yo.style.opacity="0"
+    anderdingus=0}
+    else{
+      if( yo.style.opacity==0){
+      anderdingus = 5
+    yo.style.opacity="1"
+   
+      }
+    }
+  })
+}
+document.body.addEventListener("keydown",function(nihf){
+  if(nihf.key=="p"){
+    nih()
+  }
+})
 let yogurt=0
 
 $recent.forEach(be => {
