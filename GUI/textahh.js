@@ -29,4 +29,9 @@ const $defaultahhs=String.raw`C:\Users\TromoSM`.replace(/\\/g, '/');
 const $recent=[
     'file 1','file 2','file 3','file 4','file 5','file 6','file 7','file 8','file 9','file 10','file 11','file 12','file 13','file 14','file 15','file 16','file 17','file 18','file 19','file 20','file 21','file 22','file 23','file 24','file 25','file 26', 'file 27', 'file 28', 'file 29','file 30','file 31','file 32','file 33','file 34','file 35','file 36','file 37','file 38','file 39','file 40','file 41',
 ]
-$$version=`V0.8si betaSi--PUBLIC Release (10.12.2025 as MM.DD.YYYY)`
+const $fuhnawnih=1033;
+const $calvinahhsmall=`('en_US', 'cp1252')`;
+const $typeshi=[`SSID example`,`67%`,`86.5`,`WPA2-Personal`,`8358d311-a9d7-4dd7-a7cb-a57ef298afe7`];
+
+$$version=`V0.8sw betaSw --PRIVATE Release (10.13.2025 as MM.DD.YYYY)`
+
