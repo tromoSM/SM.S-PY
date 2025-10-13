@@ -54,10 +54,7 @@ gap{
         filter: blur(4px);
     animation:ahh 0.2s 0ms forwards 1;
 }
-[tromoSM=mainR]{
-        opacity: 0;
-    animation:ahh 0.2s 0ms forwards 1;
-}
+
 [tromoSM=contKeYT]{
 animation-delay: 100ms;
 }
