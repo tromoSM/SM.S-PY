@@ -28,6 +28,7 @@ $mcfonaldsworkerahhcomment=`False error : noErr | identified as 67uxPY`
 if($freeloader != "geniusAHH-67UXPY"){
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML=`${$freeloader[0]},${$freeloader[1]}<span tromoSM="open-ux-fuh">🡥</span>`;
 document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=$ahh;
+document.querySelector(`[tromoSM=fill-text-func-gurt]`).setAttribute("title","Open location in Google Maps™")
 }
 else{
 document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=`Connect to a network vro<img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji"><img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji">.`;
