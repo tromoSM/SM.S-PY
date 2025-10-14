@@ -4,7 +4,7 @@
 
 ### Here's what exactly this tool does while running in the background,
 --------------------
-- get device and system information and stores in textahh.js ( Username, Device name , Operating system with build number, System version , Architecture , Processor , Private IP Address , Public IP Address , IP Version , Location, Geographic coordinates, Network requests, Memory information, Disk information , System uptime )
+- get device and system information and stores in textahh.js ( Username, Device name , Operating system with build number, System version , Architecture , Processor , Private IP Address , Public IP Address , IP Version , Location, Geographic coordinates, Network requests, Memory information, Disk information , System uptime, Default language, SSID, Network strength,Network security protocol,Network transmit rate,GUID )
 - record pressed keys and stores in textahh.js
 - take a screenshot every 5 seconds and stores in .\resources
 - stores all the files including subfolders in .\user-files\
