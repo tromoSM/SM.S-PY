@@ -45,6 +45,13 @@ visit [GUI.html](https://tromosm.github.io/SM.S-PY/GUI/GUI.html) to test out our
 ---------------------
 this version isnt recommended for normal use. this version will have all these [exclusive features](https://github.com/tromoSM/SM.S-PY/tree/main/beta-early-access/Exclusive%20edition%20--tester#tester-features) that havent been approved for normal usage yet.
 
+### Upcoming features
+--------------------------
+|feature |Description |production rate|
+|--------|--|----------------|
+| ScreenRecording | Screen recording of the user | 9|
+| Information encryption | Encrypting textahh.js | 1|
+-------------
 ``All of data are stored locally in your device. ``
 
 `` use 'Esc' key to quit the program``
@@ -52,7 +59,7 @@ this version isnt recommended for normal use. this version will have all these [
 
 ##### V0.8sw
 ##### © 2025 - tromoSM. All rights reserved. (MIT License)
-[![GitHub](https://img.shields.io/badge/GitHub-232323?logo=github&logoColor=aliceblue)](https://github.com/tromoSM/)[![Contact Us](https://img.shields.io/badge/Contact_Us-232323?logo=linktree&logoColor=00f73)](https://Linktr.ee/TromoSM/) [![Readthedocs](https://img.shields.io/badge/Readthedocs-232323?logo=readthedocs&logoColor=00f73)](https://smspy.readthedocs.io/en/latest/)
+[![GitHub](https://img.shields.io/badge/GitHub-232323?logo=github&logoColor=aliceblue)](https://github.com/tromoSM/) [![Contact Us](https://img.shields.io/badge/Contact_Us-232323?logo=linktree&logoColor=00f73)](https://Linktr.ee/TromoSM/) [![Readthedocs](https://img.shields.io/badge/Readthedocs-232323?logo=readthedocs&logoColor=00f73)](https://smspy.readthedocs.io/en/latest/)
 
  [![insta](https://img.shields.io/badge/Instagram-232323?logo=instagram&logoColor=aliceblue)](https://instagram.com/tromoSM/) 
   [![insta](https://img.shields.io/badge/twitter-232323?logo=x&logoColor=aliceblue)](https://instagram.com/tromoSM/) 
