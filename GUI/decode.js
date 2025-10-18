@@ -280,6 +280,8 @@ document.querySelector(`[tromoSM=cont-app]`).appendChild($mackiller);
 $mackiller.setAttribute("tromoSM","musvebeenthewindahh")
 }
 document.querySelector(`[tromoSM=fuhutwin]`).innerHTML=$cornball.length
+document.querySelector(`[tromoSM=fuhutwin]`).setAttribute(`title`,`${$cornball.length} apps`)
+document.querySelector(`[tromoSM=fuhutwin]`).style.cursor="default"
 let theguyin;
 if($ipV=="wifiACRBR"){
     theguyin = "v6"
