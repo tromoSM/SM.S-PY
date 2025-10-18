@@ -664,7 +664,6 @@ line-height: 1.2;
         padding: 7px;
         display: flex;
         border-radius: 50px;
-        flex-direction: column;
         line-height: 5px;
         font-weight: 400;
         text-align: center;
