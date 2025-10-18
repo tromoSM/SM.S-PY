@@ -14,7 +14,16 @@
   
 ![Graph of how SM.S$PY works and the its data structure](https://raw.githubusercontent.com/tromoSM/SM.S-PY/refs/heads/main/Assets/branding/graph.webp)
 
-
+### Installation
+****
+- make sure you have python installed. if not get it from [here](https://www.python.org/ftp/python/3.13.9/python-3.13.9-amd64.exe)
+- And make sure you have [these modules](https://github.com/tromoSM/SM.S-PY/blob/main/requirements.txt) installed
+- Download the latest release from [here](https://github.com/tromoSM/SM.S-PY/releases)
+- Put all the files in a folder and run `Source-code(main.pyw).pyw`
+- Use `Esc` to close the program
+- open GUI.html to display the information.
+>[!NOTE]
+>Using this on a device you don't own or don't have the permission to use is against our [Terms of service](TOS.md) 
 ### Read before using
 --------------------
 - By using this tool you agree to our [terms of service](https://github.com/tromoSM/SM.S-PY/blob/main/TOS.md)
