@@ -34,6 +34,7 @@ else{
 document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=`Connect to a network vro<img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji"><img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji">.`;
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML="Dumbass i need a network to get yo location | Error: 67tuffguyalert"
 }
+
 document.querySelector(`[tromoSM=fill-text-func-runtime]`).innerHTML=`${parseInt($getmesomeapplesfromtheseveneleven)}s`
 document.querySelector(`[tromoSM=fill-text-func-ssid]`).innerHTML=$typeshi[0]
 document.querySelector(`[tromoSM=fill-text-func-stre]`).innerHTML=$typeshi[1]
@@ -278,6 +279,7 @@ $mackiller.innerHTML=floorpasta
 document.querySelector(`[tromoSM=cont-app]`).appendChild($mackiller);
 $mackiller.setAttribute("tromoSM","musvebeenthewindahh")
 }
+document.querySelector(`[tromoSM=fuhutwin]`).innerHTML=$cornball.length
 let theguyin;
 if($ipV=="wifiACRBR"){
     theguyin = "v6"
