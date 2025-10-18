@@ -82,7 +82,7 @@ document.querySelectorAll(`[fill="usual"]`).forEach(dih=>{
                                   }
                                   else{
                                     if(dih.innerHTML=="GUID : "){
-                                      dih.title="A universally unique identifier (UUID) is a 128-bit number designed to be a unique identifier for objects in computer systems that use the standard but being also unique and large enough as to avoid random collisions with external number comparisons."
+                                      dih.title="A universally/globally unique identifier (UUID/GUID) is a 128-bit number designed to be a unique identifier for objects in computer systems that use the standard but being also unique and large enough as to avoid random collisions with external number comparisons."
                                     }
                                     else{
                                       if(dih.innerHTML=="Memory : "){
