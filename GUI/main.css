@@ -708,9 +708,18 @@ line-height: 1.2;
     background-color: #d1d1d1;
     color: #000;
     border-radius: 50px;
-    margin: 5px 5px;
+    margin: 5px 0px;
     line-height: 30px;
     overflow: visible;
+    animation: portableahhnih 0.5s forwards 1;
+   }
+   @keyframes portableahhnih{
+    from{
+    margin: 5px 4px;
+    }
+    to{
+    margin: 5px 5px;
+    }
    }
    [tromoSM=cont-app]{
     gap: 20px;
@@ -936,6 +945,10 @@ color: #000000;
     [tromoSM=trim]{
         height: 180px;
         border-right: 2px solid #d1d1d1;
+        transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) filter;
+    }
+    [tromoSM=trim]:hover{
+        filter: brightness(0.99) contrast(1.1) saturate(1.1);
     }
     [entrK=true]{
           background-color: rgb(255, 247, 211) !important;
