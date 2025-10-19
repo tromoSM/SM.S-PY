@@ -34,7 +34,14 @@ else{
 document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=`Connect to a network vro<img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji"><img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji">.`;
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML="Dumbass i need a network to get yo location | Error: 67tuffguyalert"
 }
+window.addEventListener('DOMContentLoaded',function(){
 
+let dihnih = 0
+for (const dih  of document.querySelectorAll(`[tromoSM=musvebeenthewindahh]`)){
+dih.style.animationDelay=`${dihnih}s`
+dihnih+=0.02
+}
+})
 document.querySelector(`[tromoSM=fill-text-func-runtime]`).innerHTML=`${parseInt($getmesomeapplesfromtheseveneleven)}s`
 document.querySelector(`[tromoSM=fill-text-func-ssid]`).innerHTML=$typeshi[0]
 document.querySelector(`[tromoSM=fill-text-func-stre]`).innerHTML=$typeshi[1]
@@ -262,7 +269,7 @@ if($thedamnfiles==`True`){
 $justleaveblud.innerHTML=`files inside <span tromoSM="SPR" tromoSM-fill="p">${$defaultahh}\\Pictures</span> succesfully copied to <span tromoSM="SPR"  tromoSM-fill="us-f">${$noojohnporknoo}\\user-files\\</span>`     
 }
 else{
- $justleaveblud.innerHTML=`files inside <span tromoSM="SPR" tromoSM-fill="p">${$defaultahh}\\Pictures</span> failed to copy to <span tromoSM="SPR"  tromoSM-fill="us-f">${$noojohnporknoo}\\user-files\\</span>.<br> This might happen due to already having files in <span tromoSM-fill="us-f" tromoSM="SPR">${$noojohnporknoo}\\user-files\\</span>`     
+ $justleaveblud.innerHTML=`files inside <span tromoSM="SPR" tromoSM-fill="p">${$defaultahh}\\Pictures</span> failed to copy to <span tromoSM="SPR"  tromoSM-fill="us-f">${$noojohnporknoo}\\user-files\\</span>.<br> This might happen due to already having files in <span tromoSM="SPR">${$noojohnporknoo}\\user-files\\</span>`     
 }
 document.querySelectorAll(`[tromoSM-fill=us-f]`).forEach(yo=>{
 yo.setAttribute("onclick",`gotit()`)
@@ -272,15 +279,19 @@ yo.setAttribute("onclick",`africandracula()`)
 })
 
 $getmesomeapplesfromtheseveneleven.toFixed(0)
-const $cornball = Object.keys($apps);
+const $cornball = Object.keys($apps)
+const $cheesebugertwin = Object.values($apps)
+// do not put  && const ngrngrngr of $cheesebugertwin next to hte 'const floorpasta of $cornball' 
+// 
 for (const floorpasta of $cornball) {
 $mackiller = document.createElement("span")
-$mackiller.innerHTML=floorpasta
+$mackiller.innerHTML=floorpasta 
 document.querySelector(`[tromoSM=cont-app]`).appendChild($mackiller);
 $mackiller.setAttribute("tromoSM","musvebeenthewindahh")
 }
 document.querySelector(`[tromoSM=fuhutwin]`).innerHTML=$cornball.length
 document.querySelector(`[tromoSM=fuhutwin]`).setAttribute(`title`,`${$cornball.length} apps`)
+document.querySelector(`[tromoSM=fuhutwin]`).setAttribute(`ui`,`noselection`)
 document.querySelector(`[tromoSM=fuhutwin]`).style.cursor="default"
 let theguyin;
 if($ipV=="wifiACRBR"){
@@ -566,6 +577,9 @@ for (let fcker = 1; fcker <= $val; fcker++) {
   const $mymothaatefries= document.createElement("img")
   $mymothaatefries.setAttribute("src",dawgwaterahh);
   $mymothaatefries.setAttribute("tromoSM","trim");
+  $mymothaatefries.setAttribute("title",
+`Location : ${$noojohnporknoo.replace(/\\/g, '/')+dawgwaterahh.replace(/\\/g, '/').slice(1)}
+File name : ${fcker}.png`);
   
     $appenduh.appendChild($mymothaatefries);
      $appenduh.setAttribute("tromoSM","scrnAS");
