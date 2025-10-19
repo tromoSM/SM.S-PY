@@ -101,7 +101,7 @@ document.querySelectorAll(`[fill="usual"]`).forEach(dih=>{
                                               dih.title="The time SM.$PY ran for (in seconds)"
                                             }
                                             else{
-                                              dih.title=dih.innerHTML
+                                              dih.title=dih.innerHTML.slice(0,-3) 
                                             }
                                           }
                                         }
