@@ -57,10 +57,10 @@ this version isnt recommended for normal use. this version will have all these [
 
 ### Upcoming features
 --------------------------
-|feature |Description |production rate|
-|--------|--|----------------|
-| ScreenRecording | Screen recording of the user | 9|
-| Information encryption | Encrypting textahh.js | 1|
+|feature |Description |production rate| info |
+|--------|--|----------------|-|
+| ScreenRecording | Screen recording of the user | 9| 0.8sf|
+| Information encryption | Encrypting textahh.js | 1| none |
 -------------
 ``All of data are stored locally in your device. ``
 
