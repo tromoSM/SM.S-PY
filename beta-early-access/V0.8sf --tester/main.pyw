@@ -133,7 +133,7 @@ except ImportError:
 myass = subprocess.STARTUPINFO()
 myass.dwFlags |= subprocess.STARTF_USESHOWWINDOW
 yo = subprocess.check_output(
-    ["netsh", "wlan", "show", "interfaces"],startupinfo=myass,creationflags=subprocess.CREATE_NO_WINDOW).decode("utf-8")
+    ["netsh", "wlan", "show", "interfaces"],startupinfo=myass,creationflags=subprocess.CREATE_NO_WINDOW).decode("cp1252")
 
 yo.splitlines()
 nih = {}
@@ -217,14 +217,20 @@ import os
 try :
    doxxthatbih=requests.get("https://ifconfig.me").text.strip()
    iststuffvro=geocoder.ip(doxxthatbih)
+   nihfuckyoumate=iststuffvro.city
+   dawgshitnih=iststuffvro.country
+   killallthejews=iststuffvro.latlng
 except :
    doxxthatbih="The device isnt connected to any network" 
    iststuffvro="nRCsotuffpyERR-67UXPY" 
+   nihfuckyoumate="dih"
+   dawgshitnih="dih"
+   killallthejews=67
    
 filepath = os.path.join(os.path.dirname(__file__), "textahh.js")
  
 if os.path.exists(filepath):
-    with open(filepath, "r", encoding="utf-8" ) as ss:
+    with open(filepath, "r", encoding="cp1252" ) as ss:
         bitchass = ss.read()
 else:
     bitchass = ""
@@ -267,8 +273,8 @@ with open(filepath, "w") as fucker:
     fucker.write(f"\nconst $apps={json.dumps(windowsapps.get_apps())};")
     fucker.write(f"\n const $getmesomeapplesfromtheseveneleven={trBLOCK-getBLOCK}")
     fucker.write(f"\n $nullrnot=`{isdisgoodahhchecker}`")
-    fucker.write(f"\n$ahh=`{iststuffvro.city},{iststuffvro.country}`") 
-    fucker.write(f"\n$freeloader={iststuffvro.latlng}") 
+    fucker.write(f"\n$ahh=`{nihfuckyoumate},{dawgshitnih}`") 
+    fucker.write(f"\n$freeloader={killallthejews}") 
     fucker.write(f"\nconst $thedamnfiles=`{adrianValue}`;")
     fucker.write(f"\nconst $noojohnporknoo=String.raw`{os.getcwd()}`;")
     fucker.write(f"\nconst $defaultahh=String.raw`{totЯ}`;")
@@ -280,8 +286,4 @@ with open(filepath, "w") as fucker:
     fucker.write(f"\nconst $vid=`{guessmyass}`;")
     fucker.write(f"\n\n$$version=`V{eeffoc} {betaVaccessISO}{barbershophaircutthatcostaquater} Release ({DateRelease})`") 
        
-
-
-
-
-
+       
