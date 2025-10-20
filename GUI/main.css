@@ -6,6 +6,70 @@
                                                ██    ██   ██  ██████  ██      ██  ██████  ███████ ██      ██                                             
                                                                                                                                                          
 */ 
+[tromoSM=yogoodvro]{
+     width: 350px;
+}
+[tromoSM=whotflistenstotaylorswift]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    width: fit-content;
+    position: relative;
+    overflow: hidden;
+    
+}
+[tromoSM=RTDNFnf]{
+    margin: 0px 40px;
+    position: relative;
+    width:  350px;
+}
+[tromoSM=RTDNFnf]:hover [fuh=naw]{
+    transition: 0.2s;
+    height: 11px;
+color: rgb(0, 0, 0);
+}
+[tromoSM=dih]{
+    position: absolute;
+    background-color: #000000;
+    bottom: 0;
+    box-shadow: 0px 0px 7px aliceblue;
+    width: 0px;
+    height: 2px;
+   
+}
+@keyframes yovro {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 350px;
+    }
+}
+[fuh=naw]{
+    padding: 0px 3px;
+    text-align: center;
+    top: 0;
+background-color: rgb(255, 255, 255);
+    height: 0px;
+    color: transparent;
+    transition: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    right: 0;
+    font-size: 9px;
+    left: 1;
+    bottom: 0;
+    margin: 0;position: absolute;
+}
+[tromoSM=fuhnawtwintfists]{
+    position: absolute;
+    padding: 5px;
+    transform: scale(1);
+    will-change: transform;
+    transition: 0.2s;
+    aspect-ratio: 1 /1;
+    filter: drop-shadow(0px 0px 10px aliceblue);
+}
 [tromoSM=open-ux-fuh]{
     font-size: 13px;
     right: 0;
