@@ -25,14 +25,16 @@ $67.style.display="none"
 $mcfonaldsworkerahhcomment=`False error : noErr | identified as 67uxPY`
 }
 
-if($freeloader != "geniusAHH-67UXPY"){
+if($freeloader != 67){
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML=`${$freeloader[0]},${$freeloader[1]}<span tromoSM="open-ux-fuh">🡥</span>`;
 document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=$ahh;
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).setAttribute("title","Open location in Google Maps™")
+fuhthejews="mbps"
 }
 else{
 document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=`Connect to a network vro<img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji"><img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji">.`;
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML="Dumbass i need a network to get yo location | Error: 67tuffguyalert"
+fuhthejews=""
 }
 document.querySelector(`[fuh=naw]`).innerHTML="Click to open in a new tab"
 dawgshit=document.createElement('video')
@@ -52,6 +54,7 @@ window.open( $vid,"_blank")
 })
 dawgshit.addEventListener("mouseleave",function(){
 fuhnaw.style.transform="scale(1)"
+dawgshit.duration=0
 document.querySelector(`[tromoSM=dih]`).style.animation=`none`
 dawgshit.pause()
 })
@@ -69,7 +72,7 @@ dihnih+=0.02
 document.querySelector(`[tromoSM=fill-text-func-runtime]`).innerHTML=`${parseInt($getmesomeapplesfromtheseveneleven)}s`
 document.querySelector(`[tromoSM=fill-text-func-ssid]`).innerHTML=$typeshi[0]
 document.querySelector(`[tromoSM=fill-text-func-stre]`).innerHTML=$typeshi[1]
-document.querySelector(`[tromoSM=fill-text-func-tras]`).innerHTML=`${$typeshi[2]}mbps`
+document.querySelector(`[tromoSM=fill-text-func-tras]`).innerHTML=`${$typeshi[2]+fuhthejews}`
 document.querySelector(`[tromoSM=fill-text-func-fuckoff]`).innerHTML=$typeshi[3]
 document.querySelector(`[tromoSM=fill-text-func-guid]`).innerHTML=$typeshi[4]
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).setAttribute("onclick",`window.open('https://www.google.com/maps?q=${$freeloader}')`)
