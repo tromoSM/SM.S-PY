@@ -34,6 +34,30 @@ else{
 document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=`Connect to a network vro<img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji"><img src="get_ui/emoji/tssotuffvro.jpg" tromoSM="uiEmoji">.`;
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML="Dumbass i need a network to get yo location | Error: 67tuffguyalert"
 }
+document.querySelector(`[fuh=naw]`).innerHTML="Click to open in a new tab"
+dawgshit=document.createElement('video')
+dawgsht=document.createElement(`source`)
+fuhnaw=document.createElement(`img`)
+fuhnaw.setAttribute(`src`,`get_ui/ui-src-ic-player-def.svg`)
+fuhnaw.setAttribute(`tromoSM`,`fuhnawtwintfists`)
+dawgshit.appendChild(dawgsht)
+dawgsht.setAttribute(`src`, $vid)
+dawgshit.addEventListener("mouseenter",function(){
+document.querySelector(`[tromoSM=dih]`).style.animation=`yovro  forwards 1 linear ${dawgshit.duration}s`
+dawgshit.play()
+fuhnaw.style.transform="scale(0)"
+})
+dawgshit.addEventListener("click",function(){
+window.open( $vid,"_blank")
+})
+dawgshit.addEventListener("mouseleave",function(){
+fuhnaw.style.transform="scale(1)"
+document.querySelector(`[tromoSM=dih]`).style.animation=`none`
+dawgshit.pause()
+})
+dawgshit.setAttribute(`tromoSM`,`yogoodvro`)
+document.querySelector(`[tromoSM=whotflistenstotaylorswift]`).appendChild(dawgshit)
+document.querySelector(`[tromoSM=whotflistenstotaylorswift]`).appendChild(fuhnaw)
 window.addEventListener('DOMContentLoaded',function(){
 
 let dihnih = 0
@@ -366,6 +390,11 @@ function $opnheaderscrn() {
 function $opnheadersys() {
      document.getElementById("sysTM").style.animation=$hedURani
      window.location.href="#sysinfo"
+}    
+
+function $opnheaderrec() {
+     document.getElementById("recTM").style.animation=$hedURani
+     window.location.href="#screenRec"
 }    
 
 function $opnheaderussr() {
