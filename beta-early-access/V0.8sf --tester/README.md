@@ -18,7 +18,8 @@
 - Added "GUID"
 - Added "WIKI"
 - Added "ScreenRecording"
-
+- Fixed GUI failing when no internet is available 
+  
 ### Bugs 
 - PY try:except network unavailable print:return $null
 - JS if:loaded variable network unavailable print:return $null
@@ -30,7 +31,7 @@
 ### Dev info
 - Release : 10.20.2025 as MM.DD.YYYY
 - Version : betaSf
-- Updated : 10.20.2025 as MM.DD.YYYY
+- Updated : 10.21.2025 as MM.DD.YYYY
 
 #### All the required files for this version can be downloaded from [here](https://github.com/tromoSM/SM.S-PY/releases/tag/V0.8sf).
 #### Available files for this release
