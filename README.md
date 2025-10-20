@@ -47,6 +47,16 @@
 - all required files(including GUI) for every version can be found in [here](https://github.com/tromoSM/tromoSM/tree/main/Projects/SM.%24PY/GUI)
 - Some dependencies are being used in only newer versions. see [requirements-old.txt](https://github.com/tromoSM/SM.S-PY/blob/main/requirements-old.txt) for version below 0.8sf.
 - installing the extra dependencies won't cause any issues.
+  
+----------------------------
+| Version | added features |
+|-----|-----|
+| V0.6 | `first version` |
+| V0.7 | bug fixes |
+| V0.8si | listing recently opened files , bug fixes |
+| V0.8sw | Added default language(user preference), default LCID(user preference), SSID, Network strength, Network security protocol, Network transmit rate, GUID and bug fixes |
+| V0.8sf | Added "ScreenRecording", Added fallback when no internet is available and bug fixes |
+---------
 ### GUI
 ----------
 visit [GUI.html](https://tromosm.github.io/SM.S-PY/GUI/GUI.html) to test out our GUI.html that's currently under development. Please understand that the information in the GUI.html is displayed as an example and not real information. Some information and features may be removed due to privacy concerns (ex : removed all apps in installed apps except for 2)
