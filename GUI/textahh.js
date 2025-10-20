@@ -32,6 +32,7 @@ const $recent=[
 const $fuhnawnih=1033;
 const $calvinahhsmall=`('en_US', 'cp1252')`;
 const $typeshi=[`SSID example`,`67%`,`86.5`,`WPA2-Personal`,`8358d311-a9d7-4dd7-a7cb-a57ef298afe7`];
+const $vid=`resources-rec/sample.webM`;
 
 $$version=`V0.8sw betaSw --PRIVATE Release (10.13.2025 as MM.DD.YYYY)`
 
