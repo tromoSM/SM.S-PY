@@ -23,7 +23,6 @@ from datetime import datetime
 import windowsapps
 import string
 import requests
-import platform
 import random
 import geocoder
 import shutil
