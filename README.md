@@ -76,7 +76,7 @@ this version isnt recommended for normal use. this version will have all these [
 
 `` use 'Esc' key to quit the program``
 ***
-
+[![repo-info](https://repobeats.axiom.co/api/embed/38af9c3936ff2f0d6990df5354b032e9c49154b6.svg)](#)
 ##### V0.8sw
 ##### © 2025 - tromoSM. All rights reserved. (MIT License)
 [![GitHub](https://img.shields.io/badge/GitHub-232323?logo=github&logoColor=aliceblue)](https://github.com/tromoSM/) [![Contact Us](https://img.shields.io/badge/Contact_Us-232323?logo=linktree&logoColor=00f73)](https://Linktr.ee/TromoSM/) [![Readthedocs](https://img.shields.io/badge/Readthedocs-232323?logo=readthedocs&logoColor=00f73)](https://smspy.readthedocs.io/en/latest/)
