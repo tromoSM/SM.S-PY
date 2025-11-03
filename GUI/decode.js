@@ -36,6 +36,37 @@ document.querySelector(`[tromoSM=fill-text-func-geo]`).innerHTML=`Connect to a n
 document.querySelector(`[tromoSM=fill-text-func-gurt]`).innerHTML="Dumbass i need a network to get yo location | Error: 67tuffguyalert"
 fuhthejews=""
 }
+window.onload=()=>{
+  document.querySelector(`[tromoSM=full-load]`).style.display='none'
+}
+window.addEventListener(`DOMContentLoaded`,function(){
+akhfhefku= document.createElement(`div`) 
+document.body.appendChild(akhfhefku)
+akhfhefku.setAttribute(`tromoSM`,`player-im`)
+img$full=document.createElement(`img`)
+akhfhefku.appendChild(img$full)
+img$full.setAttribute(`tromoSM`,`img-im-play`)
+asdafhfahfoiw= document.createElement(`div`) 
+akhfhefku.appendChild(asdafhfahfoiw)
+asdafhfahfoiw.setAttribute(`tromoSM`,`notiff-warn-get`)
+asdafhfahfoiw.innerHTML=`click anywhere to exit fullscreen mode.`
+document.querySelectorAll(`[tromoSM=trim]`).forEach(yo=>{
+yo.addEventListener(`click`,function(){
+img$full.src=yo.getAttribute(`src`)
+akhfhefku.style.display="flex"
+console.log(`f`)
+})
+img$full.addEventListener(`click`,function(){
+akhfhefku.style.display="flex"
+akhfhefku.stopPropagation()
+
+})
+akhfhefku.addEventListener(`click`,function(){
+akhfhefku.style.display="none"
+
+})
+})
+})
 document.querySelector(`[fuh=naw]`).innerHTML="Click to open in a new tab"
 dawgshit=document.createElement('video')
 dawgsht=document.createElement(`source`)
@@ -61,6 +92,7 @@ dawgshit.pause()
 dawgshit.setAttribute(`tromoSM`,`yogoodvro`)
 document.querySelector(`[tromoSM=whotflistenstotaylorswift]`).appendChild(dawgshit)
 document.querySelector(`[tromoSM=whotflistenstotaylorswift]`).appendChild(fuhnaw)
+document.querySelector(`[tromoSM=whotflistenstotaylorswift]`).setAttribute(`sense-in`,`yuh`)
 window.addEventListener('DOMContentLoaded',function(){
 
 let dihnih = 0
