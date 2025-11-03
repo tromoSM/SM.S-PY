@@ -6,6 +6,123 @@
                                                ██    ██   ██  ██████  ██      ██  ██████  ███████ ██      ██                                             
                                                                                                                                                          
 */ 
+[tromoSM="full-load"]{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    justify-content: center;
+    z-index: +99999999999999999999;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+[tromoSM=rr-temp-notifcation]{
+    display: none;
+}
+[load=text]{
+    text-align: center;
+    font-size: smaller;
+}
+[tromoSM=small-s]{
+width: 150px;
+position: relative;
+}
+[tromoSM=loader-l]{
+background-color: #000;
+width: 100px;
+position: absolute;border-radius: 50px;
+    transition: 0.2s;
+height: 4px;
+ animation: open-load-all 0.7s infinite  cubic-bezier(0.77, 0, 0.175, 1);;   
+}
+
+@keyframes open-load-all{
+    from{
+        width: 4px;
+        left: 0;
+    }
+    50%{
+        left:calc(50% - 60px);
+        width: 120px;
+    }
+    to{
+        width: 4px;
+        left: calc(100% - 4px);
+    }
+}
+[tromoSM=player-im]{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000046;
+    display: none;
+    backdrop-filter: blur(15px);
+    flex-wrap: wrap;
+    justify-content: center;
+    top:0;
+    align-items: center;
+    animation: open-ply 0.1s 1 forwards;
+}
+@keyframes open-ply{
+    from{
+    backdrop-filter: blur(0px);
+    }
+    to{
+    backdrop-filter: blur(15px);
+
+    }
+}
+@keyframes open-ply-im{
+    from{
+     transform: scale(0.9);
+    }
+    to{
+      transform: scale(1);
+    }
+}
+[tromoSM=notiff-warn-get]{
+    padding: 10px 20px ;
+    position: fixed;
+    top: 0;
+    z-index: +9999999999999;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: #000000;
+    animation: open-notff-warn 0.7s 1 forwards,exit-notff-warn 0.7s 1.5s 1 forwards;
+}
+@keyframes open-notff-warn{
+    from{
+     transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(3px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes exit-notff-warn{
+    from{
+     transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(3px);
+    }
+    to{
+        transform: translateY(-100px);
+    }
+}
+[tromoSM=img-im-play]{
+    width: 70vw;
+    position: fixed;
+    height:auto;
+    pointer-events: none;
+    animation: open-ply-im 0.2s 1 forwards;
+    object-fit: cover;
+}
 [tromoSM=yogoodvro]{
      width: 350px;
 }
@@ -924,6 +1041,11 @@ border: 5px solid rgba(175, 175, 175, 0.541);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     }
+[tromoSM=notiff-warn-get]{
+    backdrop-filter: blur(10px);
+    color: aliceblue;
+    background-color: #0000007e;
+}
 [tromoSM=rr-temp-notifcation]{
     background-color: rgba(255, 255, 255, 0.443);
 }
@@ -1008,6 +1130,7 @@ color: #000000;
     }
     [tromoSM=trim]{
         height: 180px;
+        cursor: pointer;
         border-right: 2px solid #d1d1d1;
         transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) filter;
     }
