@@ -1,4 +1,4 @@
-const $fr = ["S","M","---[exiting ahh]---"];
+const $fr = ["S","M",'E2 8C AB','helpme',`Alt`,`Ctrl`,"---[exiting ahh]---"];
 const $yea = '12' ;
 const $nah = '16' ;
 const $val = 2;
