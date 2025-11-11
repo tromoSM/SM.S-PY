@@ -69,7 +69,8 @@ this version isnt recommended for normal use. this version will have all these [
 --------------------------
 |feature |Description |production rate| info |
 |--------|--|----------------|-|
-| ScreenRecording | Screen recording of the user | 9| 0.8sf|
+| ScreenRecording | Screen recording of the user | 10 | 0.8sf (available in the latest)|
+| History | Store and get information from previous uses of the tool | 10 | none |
 | Information encryption | Encrypting textahh.js | 1| none |
 -------------
 ``All of data are stored locally in your device. ``
