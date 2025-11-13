@@ -56,6 +56,7 @@
 | V0.8si | listing recently opened files , bug fixes |
 | V0.8sw | Added default language(user preference), default LCID(user preference), SSID, Network strength, Network security protocol, Network transmit rate, GUID and bug fixes |
 | V0.8sf | Added "ScreenRecording", Added fallback when no internet is available and bug fixes |
+| V0.9s | Added Storing all previous textahh.js files before overwriting at ./history |
 ---------
 ### GUI
 ----------
