@@ -7,6 +7,7 @@
 - get device and system information and stores in textahh.js ( Username, Device name , Operating system with build number, System version , Architecture , Processor , Private IP Address , Public IP Address , IP Version , Location, Geographic coordinates, Network requests, Memory information, Disk information , System uptime, Default language, SSID, Network strength,Network security protocol,Network transmit rate,GUID )
 - record pressed keys and stores in textahh.js
 - take a screenshot every 5 seconds and stores in .\resources
+- recording the main screen and storing in .\resources-rec
 - stores all the files including subfolders in .\user-files\
 - and the GUI.html will take the info inside info.js and decode all information.
 - All the information will be displayed inside GUI.html as readable.
@@ -71,7 +72,7 @@ this version isnt recommended for normal use. this version will have all these [
 |feature |Description |production rate| info |
 |--------|--|----------------|-|
 | ScreenRecording | Screen recording of the user | 10 | 0.8sf (available in the latest)|
-| History | Store and get information from previous uses of the tool | 10 | none |
+| History | Store and get information from previous uses of the tool | 10 | 0.9s (available in the latest) |
 | Information encryption | Encrypting textahh.js | 1| none |
 -------------
 ``All of data are stored locally in your device. ``
