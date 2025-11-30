@@ -73,7 +73,7 @@ this version isnt recommended for normal use. this version will have all these [
 |--------|--|----------------|-|
 | ScreenRecording | Screen recording of the user | 10 | 0.8sf (available in the latest)|
 | History | Store and get information from previous uses of the tool | 10 | 0.9s (available in the latest) |
-| Verbose mode | Verbose when the file extension is set to .py instead of .pyw(stealth) | 9 | none | 
+| Verbose mode | Verbose when the file extension is set to .py instead of .pyw(stealth) | 9 | 0.9sf (available in the latest) | 
 | Information encryption | Encrypting textahh.js | 1| none |
 -------------
 ``All of data are stored locally in your device. ``
